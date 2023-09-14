@@ -1,0 +1,1327 @@
+Linear program execution time:
+0.033337
+0.033178
+0.033254
+0.033050
+0.033063
+0.033071
+0.033055
+0.035864
+0.034798
+0.033155
+0.033301
+0.033067
+0.033039
+0.033153
+0.038314
+0.041229
+0.033197
+0.035521
+0.033124
+0.033093
+0.033081
+0.033086
+0.033138
+0.033075
+0.033111
+0.033097
+0.033084
+0.033160
+0.033085
+0.033090
+0.033190
+0.033078
+0.033168
+0.033098
+0.033359
+0.033092
+0.033112
+0.033102
+0.033327
+0.033313
+0.033105
+0.033106
+0.033444
+0.033276
+0.033097
+0.033149
+0.033120
+0.033404
+0.033107
+0.033092
+
+Linear program operations count:
+10000015
+10000015
+10000015
+10000015
+10000015
+10000015
+10000015
+10000021
+10000021
+10000021
+10000021
+10000021
+10000021
+10000021
+10000021
+10000016
+10000016
+10000016
+10000016
+10000016
+10000016
+10000016
+10000016
+10000022
+10000022
+10000022
+10000022
+10000022
+10000022
+10000022
+10000022
+10000015
+10000015
+10000015
+10000015
+10000015
+10000015
+10000015
+10000015
+10000021
+10000021
+10000021
+10000021
+10000021
+10000021
+10000021
+10000021
+10000019
+10000019
+10000019
+
+Run n. 1
+--------
+1  threads: 0.032266
+2  threads: 0.025639
+3  threads: 0.020431
+4  threads: 0.013883
+5  threads: 0.009728
+6  threads: 0.008204
+7  threads: 0.006520
+8  threads: 0.004792
+9  threads: 0.007896
+10 threads: 0.009427
+11 threads: 0.010164
+12 threads: 0.006686
+13 threads: 0.007843
+14 threads: 0.005554
+15 threads: 0.006244
+16 threads: 0.006916
+17 threads: 0.008165
+18 threads: 0.006228
+19 threads: 0.007498
+20 threads: 0.005622
+
+Run n. 2
+--------
+1  threads: 0.032257
+2  threads: 0.018727
+3  threads: 0.017146
+4  threads: 0.013556
+5  threads: 0.010052
+6  threads: 0.007295
+7  threads: 0.008011
+8  threads: 0.005892
+9  threads: 0.008054
+10 threads: 0.007499
+11 threads: 0.007526
+12 threads: 0.006300
+13 threads: 0.005955
+14 threads: 0.007598
+15 threads: 0.008152
+16 threads: 0.007725
+17 threads: 0.006822
+18 threads: 0.006451
+19 threads: 0.006103
+20 threads: 0.005810
+
+Run n. 3
+--------
+1  threads: 0.032251
+2  threads: 0.021711
+3  threads: 0.016088
+4  threads: 0.013854
+5  threads: 0.010409
+6  threads: 0.009096
+7  threads: 0.008118
+8  threads: 0.007245
+9  threads: 0.007887
+10 threads: 0.007452
+11 threads: 0.008985
+12 threads: 0.007484
+13 threads: 0.006737
+14 threads: 0.008830
+15 threads: 0.007198
+16 threads: 0.006878
+17 threads: 0.006556
+18 threads: 0.006176
+19 threads: 0.008015
+20 threads: 0.006868
+
+Run n. 4
+--------
+1  threads: 0.032205
+2  threads: 0.020787
+3  threads: 0.019589
+4  threads: 0.013394
+5  threads: 0.008366
+6  threads: 0.010326
+7  threads: 0.006774
+8  threads: 0.007285
+9  threads: 0.008126
+10 threads: 0.008206
+11 threads: 0.009411
+12 threads: 0.009960
+13 threads: 0.008761
+14 threads: 0.008004
+15 threads: 0.007508
+16 threads: 0.007350
+17 threads: 0.006175
+18 threads: 0.006213
+19 threads: 0.006135
+20 threads: 0.005681
+
+Run n. 5
+--------
+1  threads: 0.032126
+2  threads: 0.020975
+3  threads: 0.017125
+4  threads: 0.014248
+5  threads: 0.009852
+6  threads: 0.007697
+7  threads: 0.006044
+8  threads: 0.004782
+9  threads: 0.007907
+10 threads: 0.008063
+11 threads: 0.007944
+12 threads: 0.008927
+13 threads: 0.008030
+14 threads: 0.005892
+15 threads: 0.007055
+16 threads: 0.004942
+17 threads: 0.006532
+18 threads: 0.006235
+19 threads: 0.006007
+20 threads: 0.005610
+
+Run n. 6
+--------
+1  threads: 0.032213
+2  threads: 0.022452
+3  threads: 0.016699
+4  threads: 0.011931
+5  threads: 0.010328
+6  threads: 0.006866
+7  threads: 0.005466
+8  threads: 0.005189
+9  threads: 0.008061
+10 threads: 0.007670
+11 threads: 0.008222
+12 threads: 0.008015
+13 threads: 0.005934
+14 threads: 0.006639
+15 threads: 0.006218
+16 threads: 0.007154
+17 threads: 0.007869
+18 threads: 0.007063
+19 threads: 0.007152
+20 threads: 0.007472
+
+Run n. 7
+--------
+1  threads: 0.032157
+2  threads: 0.021091
+3  threads: 0.018883
+4  threads: 0.013472
+5  threads: 0.010365
+6  threads: 0.006378
+7  threads: 0.008107
+8  threads: 0.008091
+9  threads: 0.008695
+10 threads: 0.007700
+11 threads: 0.009850
+12 threads: 0.009385
+13 threads: 0.006347
+14 threads: 0.006995
+15 threads: 0.005345
+16 threads: 0.006332
+17 threads: 0.007678
+18 threads: 0.006224
+19 threads: 0.007373
+20 threads: 0.005834
+
+Run n. 8
+--------
+1  threads: 0.032186
+2  threads: 0.021871
+3  threads: 0.015416
+4  threads: 0.013677
+5  threads: 0.010009
+6  threads: 0.008201
+7  threads: 0.005487
+8  threads: 0.004751
+9  threads: 0.007949
+10 threads: 0.007789
+11 threads: 0.007539
+12 threads: 0.008918
+13 threads: 0.006817
+14 threads: 0.007520
+15 threads: 0.006940
+16 threads: 0.007270
+17 threads: 0.007863
+18 threads: 0.010658
+19 threads: 0.009788
+20 threads: 0.007082
+
+Run n. 9
+--------
+1  threads: 0.032365
+2  threads: 0.018759
+3  threads: 0.012929
+4  threads: 0.015016
+5  threads: 0.011393
+6  threads: 0.013941
+7  threads: 0.015816
+8  threads: 0.010927
+9  threads: 0.009131
+10 threads: 0.007638
+11 threads: 0.007492
+12 threads: 0.008436
+13 threads: 0.008163
+14 threads: 0.007630
+15 threads: 0.006970
+16 threads: 0.006847
+17 threads: 0.006588
+18 threads: 0.008775
+19 threads: 0.005897
+20 threads: 0.007837
+
+Run n.10
+--------
+1  threads: 0.032220
+2  threads: 0.021153
+3  threads: 0.017861
+4  threads: 0.012755
+5  threads: 0.010373
+6  threads: 0.006271
+7  threads: 0.005470
+8  threads: 0.005360
+9  threads: 0.007904
+10 threads: 0.008154
+11 threads: 0.006961
+12 threads: 0.006309
+13 threads: 0.007137
+14 threads: 0.007465
+15 threads: 0.008006
+16 threads: 0.007563
+17 threads: 0.007075
+18 threads: 0.006429
+19 threads: 0.006099
+20 threads: 0.005783
+
+Run n.11
+--------
+1  threads: 0.032129
+2  threads: 0.023914
+3  threads: 0.016652
+4  threads: 0.013790
+5  threads: 0.010248
+6  threads: 0.008120
+7  threads: 0.006226
+8  threads: 0.004742
+9  threads: 0.008076
+10 threads: 0.007455
+11 threads: 0.007011
+12 threads: 0.008516
+13 threads: 0.007494
+14 threads: 0.008006
+15 threads: 0.006065
+16 threads: 0.006941
+17 threads: 0.007312
+18 threads: 0.006199
+19 threads: 0.006110
+20 threads: 0.005762
+
+Run n.12
+--------
+1  threads: 0.032190
+2  threads: 0.021102
+3  threads: 0.017344
+4  threads: 0.014046
+5  threads: 0.009874
+6  threads: 0.008321
+7  threads: 0.008091
+8  threads: 0.006720
+9  threads: 0.007891
+10 threads: 0.008475
+11 threads: 0.010087
+12 threads: 0.007970
+13 threads: 0.008552
+14 threads: 0.006259
+15 threads: 0.007746
+16 threads: 0.006857
+17 threads: 0.006568
+18 threads: 0.006439
+19 threads: 0.005986
+20 threads: 0.006609
+
+Run n.13
+--------
+1  threads: 0.032292
+2  threads: 0.020787
+3  threads: 0.014893
+4  threads: 0.013775
+5  threads: 0.011042
+6  threads: 0.007361
+7  threads: 0.008094
+8  threads: 0.007310
+9  threads: 0.008100
+10 threads: 0.007646
+11 threads: 0.007657
+12 threads: 0.008410
+13 threads: 0.008541
+14 threads: 0.007439
+15 threads: 0.006650
+16 threads: 0.006769
+17 threads: 0.006502
+18 threads: 0.007355
+19 threads: 0.007392
+20 threads: 0.007878
+
+Run n.14
+--------
+1  threads: 0.032190
+2  threads: 0.021288
+3  threads: 0.018391
+4  threads: 0.013502
+5  threads: 0.008657
+6  threads: 0.008019
+7  threads: 0.005447
+8  threads: 0.004924
+9  threads: 0.008073
+10 threads: 0.008363
+11 threads: 0.008258
+12 threads: 0.008560
+13 threads: 0.008503
+14 threads: 0.005584
+15 threads: 0.007562
+16 threads: 0.007394
+17 threads: 0.006765
+18 threads: 0.006786
+19 threads: 0.008359
+20 threads: 0.007967
+
+Run n.15
+--------
+1  threads: 0.032606
+2  threads: 0.022564
+3  threads: 0.017092
+4  threads: 0.013206
+5  threads: 0.007853
+6  threads: 0.009457
+7  threads: 0.007435
+8  threads: 0.007102
+9  threads: 0.007908
+10 threads: 0.007417
+11 threads: 0.008443
+12 threads: 0.007984
+13 threads: 0.008605
+14 threads: 0.008088
+15 threads: 0.007276
+16 threads: 0.006619
+17 threads: 0.006356
+18 threads: 0.006686
+19 threads: 0.007411
+20 threads: 0.007129
+
+Run n.16
+--------
+1  threads: 0.032192
+2  threads: 0.022025
+3  threads: 0.017764
+4  threads: 0.014115
+5  threads: 0.012610
+6  threads: 0.009857
+7  threads: 0.008110
+8  threads: 0.007912
+9  threads: 0.007878
+10 threads: 0.006689
+11 threads: 0.008159
+12 threads: 0.006137
+13 threads: 0.007445
+14 threads: 0.005664
+15 threads: 0.007177
+16 threads: 0.005793
+17 threads: 0.006782
+18 threads: 0.006189
+19 threads: 0.008334
+20 threads: 0.007526
+
+Run n.17
+--------
+1  threads: 0.032181
+2  threads: 0.018631
+3  threads: 0.017492
+4  threads: 0.013914
+5  threads: 0.011957
+6  threads: 0.009029
+7  threads: 0.005835
+8  threads: 0.006830
+9  threads: 0.008038
+10 threads: 0.007249
+11 threads: 0.008269
+12 threads: 0.006488
+13 threads: 0.009452
+14 threads: 0.008602
+15 threads: 0.007623
+16 threads: 0.006442
+17 threads: 0.006619
+18 threads: 0.006190
+19 threads: 0.006093
+20 threads: 0.007804
+
+Run n.18
+--------
+1  threads: 0.032878
+2  threads: 0.018669
+3  threads: 0.013795
+4  threads: 0.015417
+5  threads: 0.011471
+6  threads: 0.010944
+7  threads: 0.011073
+8  threads: 0.010306
+9  threads: 0.008188
+10 threads: 0.009544
+11 threads: 0.009048
+12 threads: 0.009042
+13 threads: 0.008635
+14 threads: 0.007978
+15 threads: 0.007675
+16 threads: 0.005681
+17 threads: 0.006531
+18 threads: 0.006402
+19 threads: 0.006098
+20 threads: 0.005864
+
+Run n.19
+--------
+1  threads: 0.032171
+2  threads: 0.025830
+3  threads: 0.018204
+4  threads: 0.013584
+5  threads: 0.010982
+6  threads: 0.007225
+7  threads: 0.008356
+8  threads: 0.007418
+9  threads: 0.008097
+10 threads: 0.007653
+11 threads: 0.009349
+12 threads: 0.008913
+13 threads: 0.006053
+14 threads: 0.007550
+15 threads: 0.007770
+16 threads: 0.007704
+17 threads: 0.009649
+18 threads: 0.006792
+19 threads: 0.006722
+20 threads: 0.007279
+
+Run n.20
+--------
+1  threads: 0.032267
+2  threads: 0.022998
+3  threads: 0.014811
+4  threads: 0.012949
+5  threads: 0.010876
+6  threads: 0.010351
+7  threads: 0.005487
+8  threads: 0.005536
+9  threads: 0.008004
+10 threads: 0.007723
+11 threads: 0.007354
+12 threads: 0.007038
+13 threads: 0.006033
+14 threads: 0.006370
+15 threads: 0.006135
+16 threads: 0.006880
+17 threads: 0.007226
+18 threads: 0.006650
+19 threads: 0.008714
+20 threads: 0.006445
+
+Run n.21
+--------
+1  threads: 0.032252
+2  threads: 0.021919
+3  threads: 0.017686
+4  threads: 0.011965
+5  threads: 0.008597
+6  threads: 0.008223
+7  threads: 0.007246
+8  threads: 0.005900
+9  threads: 0.007964
+10 threads: 0.007910
+11 threads: 0.009714
+12 threads: 0.008043
+13 threads: 0.008271
+14 threads: 0.007754
+15 threads: 0.007153
+16 threads: 0.006954
+17 threads: 0.006641
+18 threads: 0.006170
+19 threads: 0.007901
+20 threads: 0.007457
+
+Run n.22
+--------
+1  threads: 0.032141
+2  threads: 0.021990
+3  threads: 0.015975
+4  threads: 0.013499
+5  threads: 0.010758
+6  threads: 0.008416
+7  threads: 0.008162
+8  threads: 0.006011
+9  threads: 0.007883
+10 threads: 0.007614
+11 threads: 0.009509
+12 threads: 0.008223
+13 threads: 0.008431
+14 threads: 0.006109
+15 threads: 0.007274
+16 threads: 0.006611
+17 threads: 0.006900
+18 threads: 0.007218
+19 threads: 0.007853
+20 threads: 0.007082
+
+Run n.23
+--------
+1  threads: 0.032395
+2  threads: 0.021981
+3  threads: 0.018686
+4  threads: 0.014021
+5  threads: 0.008215
+6  threads: 0.007916
+7  threads: 0.005482
+8  threads: 0.004801
+9  threads: 0.008091
+10 threads: 0.009069
+11 threads: 0.008274
+12 threads: 0.006465
+13 threads: 0.008770
+14 threads: 0.008574
+15 threads: 0.008004
+16 threads: 0.007268
+17 threads: 0.006558
+18 threads: 0.006666
+19 threads: 0.006140
+20 threads: 0.006762
+
+Run n.24
+--------
+1  threads: 0.032327
+2  threads: 0.018646
+3  threads: 0.017247
+4  threads: 0.011043
+5  threads: 0.012114
+6  threads: 0.009859
+7  threads: 0.007420
+8  threads: 0.005778
+9  threads: 0.008052
+10 threads: 0.007922
+11 threads: 0.010178
+12 threads: 0.009934
+13 threads: 0.007741
+14 threads: 0.007406
+15 threads: 0.005600
+16 threads: 0.007223
+17 threads: 0.008527
+18 threads: 0.007576
+19 threads: 0.006521
+20 threads: 0.005625
+
+Run n.25
+--------
+1  threads: 0.032217
+2  threads: 0.023466
+3  threads: 0.018302
+4  threads: 0.014871
+5  threads: 0.010717
+6  threads: 0.009643
+7  threads: 0.008641
+8  threads: 0.006289
+9  threads: 0.007829
+10 threads: 0.007634
+11 threads: 0.007823
+12 threads: 0.007431
+13 threads: 0.007314
+14 threads: 0.006063
+15 threads: 0.007377
+16 threads: 0.009126
+17 threads: 0.008238
+18 threads: 0.006458
+19 threads: 0.006146
+20 threads: 0.005787
+
+Run n.26
+--------
+1  threads: 0.032289
+2  threads: 0.018640
+3  threads: 0.016563
+4  threads: 0.013441
+5  threads: 0.011156
+6  threads: 0.008314
+7  threads: 0.008006
+8  threads: 0.007141
+9  threads: 0.008008
+10 threads: 0.008346
+11 threads: 0.008693
+12 threads: 0.007068
+13 threads: 0.008691
+14 threads: 0.005754
+15 threads: 0.007092
+16 threads: 0.006640
+17 threads: 0.006747
+18 threads: 0.006236
+19 threads: 0.006194
+20 threads: 0.005822
+
+Run n.27
+--------
+1  threads: 0.032224
+2  threads: 0.016665
+3  threads: 0.016936
+4  threads: 0.014020
+5  threads: 0.009645
+6  threads: 0.007468
+7  threads: 0.008103
+8  threads: 0.010609
+9  threads: 0.009666
+10 threads: 0.007849
+11 threads: 0.008571
+12 threads: 0.010141
+13 threads: 0.012094
+14 threads: 0.011133
+15 threads: 0.012078
+16 threads: 0.007683
+17 threads: 0.007847
+18 threads: 0.007847
+19 threads: 0.007405
+20 threads: 0.008375
+
+Run n.28
+--------
+1  threads: 0.032340
+2  threads: 0.021254
+3  threads: 0.018225
+4  threads: 0.015553
+5  threads: 0.011431
+6  threads: 0.009025
+7  threads: 0.007986
+8  threads: 0.005327
+9  threads: 0.007855
+10 threads: 0.007936
+11 threads: 0.010116
+12 threads: 0.008538
+13 threads: 0.008065
+14 threads: 0.007559
+15 threads: 0.007440
+16 threads: 0.006744
+17 threads: 0.006943
+18 threads: 0.006106
+19 threads: 0.005822
+20 threads: 0.007653
+
+Run n.29
+--------
+1  threads: 0.032185
+2  threads: 0.021845
+3  threads: 0.020417
+4  threads: 0.013723
+5  threads: 0.010238
+6  threads: 0.009902
+7  threads: 0.007296
+8  threads: 0.006808
+9  threads: 0.008031
+10 threads: 0.007714
+11 threads: 0.006853
+12 threads: 0.006421
+13 threads: 0.008550
+14 threads: 0.007701
+15 threads: 0.007616
+16 threads: 0.008058
+17 threads: 0.007386
+18 threads: 0.007093
+19 threads: 0.006365
+20 threads: 0.006248
+
+Run n.30
+--------
+1  threads: 0.032219
+2  threads: 0.023194
+3  threads: 0.018137
+4  threads: 0.014472
+5  threads: 0.010865
+6  threads: 0.007500
+7  threads: 0.008125
+8  threads: 0.005831
+9  threads: 0.007907
+10 threads: 0.008227
+11 threads: 0.007537
+12 threads: 0.006558
+13 threads: 0.007500
+14 threads: 0.005653
+15 threads: 0.006811
+16 threads: 0.006952
+17 threads: 0.006548
+18 threads: 0.006125
+19 threads: 0.006610
+20 threads: 0.005858
+
+Run n.31
+--------
+1  threads: 0.032288
+2  threads: 0.021663
+3  threads: 0.015829
+4  threads: 0.013723
+5  threads: 0.007772
+6  threads: 0.008229
+7  threads: 0.007992
+8  threads: 0.004768
+9  threads: 0.007896
+10 threads: 0.007739
+11 threads: 0.008289
+12 threads: 0.009286
+13 threads: 0.008211
+14 threads: 0.008158
+15 threads: 0.005568
+16 threads: 0.005111
+17 threads: 0.006455
+18 threads: 0.006293
+19 threads: 0.007386
+20 threads: 0.006814
+
+Run n.32
+--------
+1  threads: 0.032234
+2  threads: 0.022229
+3  threads: 0.017145
+4  threads: 0.012317
+5  threads: 0.010017
+6  threads: 0.008539
+7  threads: 0.007037
+8  threads: 0.004740
+9  threads: 0.008278
+10 threads: 0.008103
+11 threads: 0.008585
+12 threads: 0.007381
+13 threads: 0.008283
+14 threads: 0.006067
+15 threads: 0.008420
+16 threads: 0.006729
+17 threads: 0.006521
+18 threads: 0.006225
+19 threads: 0.006287
+20 threads: 0.005919
+
+Run n.33
+--------
+1  threads: 0.032127
+2  threads: 0.023052
+3  threads: 0.017911
+4  threads: 0.016571
+5  threads: 0.011546
+6  threads: 0.008171
+7  threads: 0.006494
+8  threads: 0.004823
+9  threads: 0.008122
+10 threads: 0.009466
+11 threads: 0.010376
+12 threads: 0.009913
+13 threads: 0.009028
+14 threads: 0.008368
+15 threads: 0.007973
+16 threads: 0.006884
+17 threads: 0.006567
+18 threads: 0.005639
+19 threads: 0.006958
+20 threads: 0.007232
+
+Run n.34
+--------
+1  threads: 0.032234
+2  threads: 0.021200
+3  threads: 0.019110
+4  threads: 0.014818
+5  threads: 0.010210
+6  threads: 0.008244
+7  threads: 0.006333
+8  threads: 0.006878
+9  threads: 0.007868
+10 threads: 0.007313
+11 threads: 0.007450
+12 threads: 0.006386
+13 threads: 0.005920
+14 threads: 0.005599
+15 threads: 0.007545
+16 threads: 0.005561
+17 threads: 0.007762
+18 threads: 0.006628
+19 threads: 0.008482
+20 threads: 0.007178
+
+Run n.35
+--------
+1  threads: 0.032242
+2  threads: 0.022863
+3  threads: 0.016047
+4  threads: 0.013551
+5  threads: 0.011502
+6  threads: 0.008371
+7  threads: 0.008075
+8  threads: 0.006072
+9  threads: 0.007898
+10 threads: 0.007713
+11 threads: 0.007265
+12 threads: 0.006410
+13 threads: 0.007244
+14 threads: 0.006429
+15 threads: 0.007405
+16 threads: 0.007739
+17 threads: 0.006806
+18 threads: 0.006729
+19 threads: 0.007628
+20 threads: 0.007156
+
+Run n.36
+--------
+1  threads: 0.032163
+2  threads: 0.018684
+3  threads: 0.015266
+4  threads: 0.014151
+5  threads: 0.011661
+6  threads: 0.007636
+7  threads: 0.007890
+8  threads: 0.007390
+9  threads: 0.007903
+10 threads: 0.009743
+11 threads: 0.009950
+12 threads: 0.006572
+13 threads: 0.006160
+14 threads: 0.005529
+15 threads: 0.007240
+16 threads: 0.007729
+17 threads: 0.006968
+18 threads: 0.006449
+19 threads: 0.006044
+20 threads: 0.005778
+
+Run n.37
+--------
+1  threads: 0.032435
+2  threads: 0.018552
+3  threads: 0.016779
+4  threads: 0.014209
+5  threads: 0.010043
+6  threads: 0.009328
+7  threads: 0.008417
+8  threads: 0.007362
+9  threads: 0.007964
+10 threads: 0.007875
+11 threads: 0.009460
+12 threads: 0.009325
+13 threads: 0.007055
+14 threads: 0.007003
+15 threads: 0.006169
+16 threads: 0.006938
+17 threads: 0.007070
+18 threads: 0.007200
+19 threads: 0.006065
+20 threads: 0.005889
+
+Run n.38
+--------
+1  threads: 0.032160
+2  threads: 0.023261
+3  threads: 0.017911
+4  threads: 0.015772
+5  threads: 0.011415
+6  threads: 0.006258
+7  threads: 0.008086
+8  threads: 0.009137
+9  threads: 0.007908
+10 threads: 0.007641
+11 threads: 0.008682
+12 threads: 0.006405
+13 threads: 0.008284
+14 threads: 0.008850
+15 threads: 0.007368
+16 threads: 0.007035
+17 threads: 0.006708
+18 threads: 0.006502
+19 threads: 0.006073
+20 threads: 0.005896
+
+Run n.39
+--------
+1  threads: 0.032319
+2  threads: 0.020994
+3  threads: 0.016910
+4  threads: 0.014383
+5  threads: 0.011149
+6  threads: 0.008955
+7  threads: 0.008066
+8  threads: 0.004937
+9  threads: 0.007881
+10 threads: 0.009598
+11 threads: 0.007079
+12 threads: 0.006447
+13 threads: 0.005987
+14 threads: 0.007378
+15 threads: 0.007395
+16 threads: 0.006908
+17 threads: 0.006657
+18 threads: 0.007691
+19 threads: 0.006225
+20 threads: 0.008387
+
+Run n.40
+--------
+1  threads: 0.032262
+2  threads: 0.021235
+3  threads: 0.017054
+4  threads: 0.014367
+5  threads: 0.011287
+6  threads: 0.009728
+7  threads: 0.008363
+8  threads: 0.007301
+9  threads: 0.007968
+10 threads: 0.008323
+11 threads: 0.009627
+12 threads: 0.006400
+13 threads: 0.008240
+14 threads: 0.009052
+15 threads: 0.007433
+16 threads: 0.006864
+17 threads: 0.005695
+18 threads: 0.006230
+19 threads: 0.007013
+20 threads: 0.005855
+
+Run n.41
+--------
+1  threads: 0.032211
+2  threads: 0.022263
+3  threads: 0.017373
+4  threads: 0.013903
+5  threads: 0.011499
+6  threads: 0.008270
+7  threads: 0.007519
+8  threads: 0.004773
+9  threads: 0.008015
+10 threads: 0.007861
+11 threads: 0.007017
+12 threads: 0.006919
+13 threads: 0.006771
+14 threads: 0.006372
+15 threads: 0.007682
+16 threads: 0.006964
+17 threads: 0.006566
+18 threads: 0.006614
+19 threads: 0.006116
+20 threads: 0.006002
+
+Run n.42
+--------
+1  threads: 0.032256
+2  threads: 0.025481
+3  threads: 0.017587
+4  threads: 0.015504
+5  threads: 0.010989
+6  threads: 0.008156
+7  threads: 0.007601
+8  threads: 0.004755
+9  threads: 0.008109
+10 threads: 0.008029
+11 threads: 0.010463
+12 threads: 0.008657
+13 threads: 0.006797
+14 threads: 0.005917
+15 threads: 0.007349
+16 threads: 0.004935
+17 threads: 0.006569
+18 threads: 0.006225
+19 threads: 0.007312
+20 threads: 0.007707
+
+Run n.43
+--------
+1  threads: 0.032228
+2  threads: 0.023321
+3  threads: 0.016392
+4  threads: 0.013821
+5  threads: 0.011518
+6  threads: 0.008314
+7  threads: 0.007733
+8  threads: 0.006103
+9  threads: 0.008019
+10 threads: 0.007677
+11 threads: 0.007479
+12 threads: 0.009320
+13 threads: 0.007627
+14 threads: 0.007301
+15 threads: 0.007114
+16 threads: 0.004933
+17 threads: 0.006513
+18 threads: 0.006180
+19 threads: 0.006333
+20 threads: 0.005568
+
+Run n.44
+--------
+1  threads: 0.032191
+2  threads: 0.018547
+3  threads: 0.017946
+4  threads: 0.013187
+5  threads: 0.011033
+6  threads: 0.010411
+7  threads: 0.005702
+8  threads: 0.007129
+9  threads: 0.007945
+10 threads: 0.008878
+11 threads: 0.008587
+12 threads: 0.007325
+13 threads: 0.007509
+14 threads: 0.005525
+15 threads: 0.007343
+16 threads: 0.008203
+17 threads: 0.007527
+18 threads: 0.006778
+19 threads: 0.006137
+20 threads: 0.006337
+
+Run n.45
+--------
+1  threads: 0.032244
+2  threads: 0.022279
+3  threads: 0.016373
+4  threads: 0.014204
+5  threads: 0.011056
+6  threads: 0.008411
+7  threads: 0.006801
+8  threads: 0.005060
+9  threads: 0.007914
+10 threads: 0.008922
+11 threads: 0.010183
+12 threads: 0.008573
+13 threads: 0.007751
+14 threads: 0.006502
+15 threads: 0.007046
+16 threads: 0.006959
+17 threads: 0.007025
+18 threads: 0.006529
+19 threads: 0.007568
+20 threads: 0.007516
+
+Run n.46
+--------
+1  threads: 0.034203
+2  threads: 0.020665
+3  threads: 0.014942
+4  threads: 0.011783
+5  threads: 0.009985
+6  threads: 0.006460
+7  threads: 0.012006
+8  threads: 0.010321
+9  threads: 0.007967
+10 threads: 0.007502
+11 threads: 0.008826
+12 threads: 0.008343
+13 threads: 0.012169
+14 threads: 0.010500
+15 threads: 0.009994
+16 threads: 0.011291
+17 threads: 0.008851
+18 threads: 0.008661
+19 threads: 0.006661
+20 threads: 0.007328
+
+Run n.47
+--------
+1  threads: 0.032152
+2  threads: 0.023860
+3  threads: 0.016704
+4  threads: 0.014136
+5  threads: 0.010354
+6  threads: 0.008476
+7  threads: 0.008317
+8  threads: 0.004943
+9  threads: 0.007995
+10 threads: 0.008000
+11 threads: 0.010426
+12 threads: 0.008651
+13 threads: 0.008452
+14 threads: 0.007190
+15 threads: 0.006958
+16 threads: 0.006861
+17 threads: 0.006501
+18 threads: 0.007718
+19 threads: 0.006281
+20 threads: 0.006938
+
+Run n.48
+--------
+1  threads: 0.032267
+2  threads: 0.021714
+3  threads: 0.017936
+4  threads: 0.014441
+5  threads: 0.011983
+6  threads: 0.009607
+7  threads: 0.008103
+8  threads: 0.005951
+9  threads: 0.007875
+10 threads: 0.007590
+11 threads: 0.009322
+12 threads: 0.006675
+13 threads: 0.007663
+14 threads: 0.006126
+15 threads: 0.007735
+16 threads: 0.006957
+17 threads: 0.006758
+18 threads: 0.006300
+19 threads: 0.005896
+20 threads: 0.005866
+
+Run n.49
+--------
+1  threads: 0.032158
+2  threads: 0.023578
+3  threads: 0.016465
+4  threads: 0.015150
+5  threads: 0.010056
+6  threads: 0.007781
+7  threads: 0.005465
+8  threads: 0.005013
+9  threads: 0.008119
+10 threads: 0.008816
+11 threads: 0.007276
+12 threads: 0.007553
+13 threads: 0.006175
+14 threads: 0.008073
+15 threads: 0.007193
+16 threads: 0.006611
+17 threads: 0.006553
+18 threads: 0.006180
+19 threads: 0.006088
+20 threads: 0.005591
+
+Run n.50
+--------
+1  threads: 0.032307
+2  threads: 0.020658
+3  threads: 0.017076
+4  threads: 0.014130
+5  threads: 0.010635
+6  threads: 0.008689
+7  threads: 0.008155
+8  threads: 0.005632
+9  threads: 0.008014
+10 threads: 0.007745
+11 threads: 0.009575
+12 threads: 0.008759
+13 threads: 0.008616
+14 threads: 0.007678
+15 threads: 0.007809
+16 threads: 0.010052
+17 threads: 0.007348
+18 threads: 0.008542
+19 threads: 0.007162
+20 threads: 0.006349
+
+----------------------------------------------------
+
+Average linear time: 0.033552
+Average operations number: 10000018
+
+
+Average execution time for each amount of threads:
+Average time for  1 threads: 0.032292
+Average time for  2 threads: 0.021533
+Average time for  3 threads: 0.017111
+Average time for  4 threads: 0.013896
+Average time for  5 threads: 0.010518
+Average time for  6 threads: 0.008545
+Average time for  7 threads: 0.007612
+Average time for  8 threads: 0.006414
+Average time for  9 threads: 0.008056
+Average time for 10 threads: 0.008051
+Average time for 11 threads: 0.008618
+Average time for 12 threads: 0.007872
+Average time for 13 threads: 0.007808
+Average time for 14 threads: 0.007220
+Average time for 15 threads: 0.007330
+Average time for 16 threads: 0.007012
+Average time for 17 threads: 0.007028
+Average time for 18 threads: 0.006779
+Average time for 19 threads: 0.006839
+Average time for 20 threads: 0.006637
+
+
+Speedup:
+Speedup for  1 threads: 1.000000
+Speedup for  2 threads: 1.499638
+Speedup for  3 threads: 1.887259
+Speedup for  4 threads: 2.323821
+Speedup for  5 threads: 3.070226
+Speedup for  6 threads: 3.779007
+Speedup for  7 threads: 4.242393
+Speedup for  8 threads: 5.034718
+Speedup for  9 threads: 4.008417
+Speedup for 10 threads: 4.010829
+Speedup for 11 threads: 3.746950
+Speedup for 12 threads: 4.102169
+Speedup for 13 threads: 4.135713
+Speedup for 14 threads: 4.472712
+Speedup for 15 threads: 4.405477
+Speedup for 16 threads: 4.605529
+Speedup for 17 threads: 4.594960
+Speedup for 18 threads: 4.763569
+Speedup for 19 threads: 4.721683
+Speedup for 20 threads: 4.865722
+
+
+Efficiency:
+Efficiency for  1 threads: 1.000000
+Efficiency for  2 threads: 0.749819
+Efficiency for  3 threads: 0.629086
+Efficiency for  4 threads: 0.580955
+Efficiency for  5 threads: 0.614045
+Efficiency for  6 threads: 0.629834
+Efficiency for  7 threads: 0.606056
+Efficiency for  8 threads: 0.629340
+Efficiency for  9 threads: 0.445380
+Efficiency for 10 threads: 0.401083
+Efficiency for 11 threads: 0.340632
+Efficiency for 12 threads: 0.341847
+Efficiency for 13 threads: 0.318132
+Efficiency for 14 threads: 0.319479
+Efficiency for 15 threads: 0.293698
+Efficiency for 16 threads: 0.287846
+Efficiency for 17 threads: 0.270292
+Efficiency for 18 threads: 0.264643
+Efficiency for 19 threads: 0.248510
+Efficiency for 20 threads: 0.243286
