@@ -8,7 +8,7 @@
 #include "parallel/parallel.h"
 
 #define MAX_THREADS_NUMBER 20
-#define RUNS_PER_ARRAY_TYPE 5
+#define RUNS_PER_ARRAY_TYPE 10
 
 #define AMOUNT_OF_ARRAY_TYPES 7
 

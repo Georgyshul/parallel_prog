@@ -9,10 +9,12 @@ double find_occurance_n_threads(int *array, int target, int array_length, int nu
     {
 #pragma omp for
     for (int i = 0; i < array_length; i++) {
-        if (*idx != -1) continue;
-        if (array[i] == target) {
-            *idx = i;
-        }
+        if (*idx == -1) {
+            if (array[i] == target) {
+#pragma omp critical
+                *idx = i;
+            }
+        } else { i = array_length; }
     }
     }
 
