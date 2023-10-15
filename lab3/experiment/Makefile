@@ -34,6 +34,10 @@ ${BUILD_DIR}/%.o: %.c
 clean:
 	rm -rf *.o *.out $(BUILD_DIR)
 
+clean_logs:
+	rm -f log/*.csv
+	rm *.txt
+	
 codestyle:
 	clang-format -i --style=google $(SRC_ENTRY_DIR)/*.c $(SRC_PARALLEL_DIR)/*.c
 	clang-format -i --style=google $(SRC_ENTRY_DIR)/*.h $(SRC_PARALLEL_DIR)/*.h

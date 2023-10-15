@@ -29,7 +29,7 @@ static const char LOG_FILE_NAME[AMOUNT_OF_ARRAY_TYPES * 3]
 
 
 int main() {
-    const int array_length = 10;
+    const int array_length = 100000;
 
     FILE *stat_fd = fopen("stat.txt", "w+");
 
@@ -39,7 +39,8 @@ int main() {
     for (int array_type = 0; array_type < AMOUNT_OF_ARRAY_TYPES; array_type++) {
         stats stat = {{0}, {0}, {0}};
         for (int i = 0; i < RUNS_PER_ARRAY_TYPE; i++) {
-            generate_array(&array, &sorted_array, array_length, array_type);
+            generate_array(array, sorted_array, array_length, array_type);
+            // _print_arrays(array, sorted_array, array_length);
             make_experiment(array, sorted_array, array_length, array_type, &stat);
         }
         fprintf(stat_fd, "Array type %d\n------------\n", array_type);
@@ -92,19 +93,51 @@ int check_result(int *array, int *sorted_array, int array_length) {
     return e_flag;
 }
 
-void generate_array(int **array, int **sorted_array, int array_length, int array_type) {
-    // tmp-------
-    for (int i = 0; i < array_length; i++) {
-        int element = rand() % 10;
-        (*array)[i] = element;
-        (*sorted_array)[i] = element;
-    }
-    qsort(*sorted_array, array_length, sizeof(int), comp);
-    // tmp--------
+void generate_array(int *array, int *sorted_array, int array_length, int array_type) {
 
     switch (array_type) {
-        default:
+        case ORDERED:
+            generate_random_array(array, array_length, 100000);
+            _copy_array(sorted_array, array, array_length);
+            qsort(sorted_array, array_length, sizeof(int), comp);
+            _copy_array(array, sorted_array, array_length);
             break;
+
+        case REVERSE_ORDERED:
+            generate_random_array(array, array_length, 100000);
+            _copy_array(sorted_array, array, array_length);
+            qsort(sorted_array, array_length, sizeof(int), comp);
+
+            for (int i = 0; i < array_length; i++) {
+                array[i] = sorted_array[array_length - i - 1];
+            }
+            break;
+
+        case RANDOM:
+            generate_random_array(array, array_length, 100000);
+            _copy_array(sorted_array, array, array_length);
+            qsort(sorted_array, array_length, sizeof(int), comp);
+            
+            break;
+
+        case LOW_RANGE:
+            generate_random_array(array, array_length, 100);
+            _copy_array(sorted_array, array, array_length);
+            qsort(sorted_array, array_length, sizeof(int), comp);
+            
+            break;
+
+        default:
+            generate_random_array(array, array_length, 100000);
+            _copy_array(sorted_array, array, array_length);
+            qsort(sorted_array, array_length, sizeof(int), comp);
+            break;
+    }
+}
+
+void generate_random_array(int *array, int array_length, int range) {
+    for (int i = 0; i < array_length; i++) {
+        array[i] = rand() % range;
     }
 }
 
@@ -154,7 +187,7 @@ void calculate_stats(stats *stat, int array_type, FILE *stat_fd) {
 }
 
 void _print_arrays(int *array, int *sorted_array, int array_length) {
-    printf("\nWrong sorted array:\n");
+    printf("\nArray:\n");
     for (int i = 0; i < array_length; i++) {
         printf("%d ", array[i]);
     }
