@@ -19,7 +19,7 @@ double shell_sort_n_threads(int *array, int array_length, int num_threads) {
                 array[k + s] = key;
             }
         }
-        }
+        } 
     }
 
     double end = omp_get_wtime();
