@@ -12,6 +12,7 @@ static const char LOG_FILE_NAME[AMOUNT_OF_ARRAY_TYPES * 3]
                                           {'.', '/', 'l', 'o', 'g', '/', 's', 't', 'a', 't', '_', 'a', 'v', 'g', '_', '4', '.', 'c', 's', 'v', '\0'},
                                           {'.', '/', 'l', 'o', 'g', '/', 's', 't', 'a', 't', '_', 'a', 'v', 'g', '_', '5', '.', 'c', 's', 'v', '\0'},
                                           {'.', '/', 'l', 'o', 'g', '/', 's', 't', 'a', 't', '_', 'a', 'v', 'g', '_', '6', '.', 'c', 's', 'v', '\0'},
+                                          {'.', '/', 'l', 'o', 'g', '/', 's', 't', 'a', 't', '_', 'a', 'v', 'g', '_', '7', '.', 'c', 's', 'v', '\0'},
                                           {'.', '/', 'l', 'o', 'g', '/', 's', 't', 'a', 't', '_', 's', 'p', 'u', '_', '0', '.', 'c', 's', 'v', '\0'},
                                           {'.', '/', 'l', 'o', 'g', '/', 's', 't', 'a', 't', '_', 's', 'p', 'u', '_', '1', '.', 'c', 's', 'v', '\0'},
                                           {'.', '/', 'l', 'o', 'g', '/', 's', 't', 'a', 't', '_', 's', 'p', 'u', '_', '2', '.', 'c', 's', 'v', '\0'},
@@ -19,13 +20,15 @@ static const char LOG_FILE_NAME[AMOUNT_OF_ARRAY_TYPES * 3]
                                           {'.', '/', 'l', 'o', 'g', '/', 's', 't', 'a', 't', '_', 's', 'p', 'u', '_', '4', '.', 'c', 's', 'v', '\0'},
                                           {'.', '/', 'l', 'o', 'g', '/', 's', 't', 'a', 't', '_', 's', 'p', 'u', '_', '5', '.', 'c', 's', 'v', '\0'},
                                           {'.', '/', 'l', 'o', 'g', '/', 's', 't', 'a', 't', '_', 's', 'p', 'u', '_', '6', '.', 'c', 's', 'v', '\0'},
+                                          {'.', '/', 'l', 'o', 'g', '/', 's', 't', 'a', 't', '_', 's', 'p', 'u', '_', '7', '.', 'c', 's', 'v', '\0'},
                                           {'.', '/', 'l', 'o', 'g', '/', 's', 't', 'a', 't', '_', 'e', 'f', 'f', '_', '0', '.', 'c', 's', 'v', '\0'},
                                           {'.', '/', 'l', 'o', 'g', '/', 's', 't', 'a', 't', '_', 'e', 'f', 'f', '_', '1', '.', 'c', 's', 'v', '\0'},
                                           {'.', '/', 'l', 'o', 'g', '/', 's', 't', 'a', 't', '_', 'e', 'f', 'f', '_', '2', '.', 'c', 's', 'v', '\0'},
                                           {'.', '/', 'l', 'o', 'g', '/', 's', 't', 'a', 't', '_', 'e', 'f', 'f', '_', '3', '.', 'c', 's', 'v', '\0'},
                                           {'.', '/', 'l', 'o', 'g', '/', 's', 't', 'a', 't', '_', 'e', 'f', 'f', '_', '4', '.', 'c', 's', 'v', '\0'},
                                           {'.', '/', 'l', 'o', 'g', '/', 's', 't', 'a', 't', '_', 'e', 'f', 'f', '_', '5', '.', 'c', 's', 'v', '\0'},
-                                          {'.', '/', 'l', 'o', 'g', '/', 's', 't', 'a', 't', '_', 'e', 'f', 'f', '_', '6', '.', 'c', 's', 'v', '\0'}};
+                                          {'.', '/', 'l', 'o', 'g', '/', 's', 't', 'a', 't', '_', 'e', 'f', 'f', '_', '6', '.', 'c', 's', 'v', '\0'},
+                                          {'.', '/', 'l', 'o', 'g', '/', 's', 't', 'a', 't', '_', 'e', 'f', 'f', '_', '7', '.', 'c', 's', 'v', '\0'}};
 
 
 int main() {
@@ -40,7 +43,6 @@ int main() {
         stats stat = {{0}, {0}, {0}};
         for (int i = 0; i < RUNS_PER_ARRAY_TYPE; i++) {
             generate_array(array, sorted_array, array_length, array_type);
-            // _print_arrays(array, sorted_array, array_length);
             make_experiment(array, sorted_array, array_length, array_type, &stat);
         }
         fprintf(stat_fd, "Array type %d\n------------\n", array_type);
@@ -97,56 +99,71 @@ void generate_array(int *array, int *sorted_array, int array_length, int array_t
 
     switch (array_type) {
         case ORDERED:
-            generate_random_array(array, array_length, 100000);
-            _copy_array(sorted_array, array, array_length);
-            qsort(sorted_array, array_length, sizeof(int), comp);
+            generate_sort_array(array, sorted_array, array_length, 100000);
             _copy_array(array, sorted_array, array_length);
             break;
 
         case REVERSE_ORDERED:
-            generate_random_array(array, array_length, 100000);
-            _copy_array(sorted_array, array, array_length);
-            qsort(sorted_array, array_length, sizeof(int), comp);
-
-            for (int i = 0; i < array_length; i++) {
-                array[i] = sorted_array[array_length - i - 1];
-            }
+            generate_sort_array(array, sorted_array, array_length, 100000);
+            qsort(array, array_length, sizeof(int), comp_rev);
             break;
 
         case RANDOM:
-            generate_random_array(array, array_length, 100000);
-            _copy_array(sorted_array, array, array_length);
-            qsort(sorted_array, array_length, sizeof(int), comp);
-            
+            generate_sort_array(array, sorted_array, array_length, 100000);
             break;
 
         case LOW_RANGE:
-            generate_random_array(array, array_length, 100);
-            _copy_array(sorted_array, array, array_length);
-            qsort(sorted_array, array_length, sizeof(int), comp);
-            
+            generate_sort_array(array, sorted_array, array_length, 100);
+            break;
+
+        case FIRST_HALF_ORDERED:
+            generate_sort_array(array, sorted_array, array_length, 100000);
+            qsort(array, array_length / 2, sizeof(int), comp);
+            break;
+
+        case FIRST_HALF_REVERSE_ORDERED:
+            generate_sort_array(array, sorted_array, array_length, 100000);
+            qsort(array, array_length / 2, sizeof(int), comp_rev);
+            break;
+
+        case FIRST_QUATER_ORDERED:
+            generate_sort_array(array, sorted_array, array_length, 100000);
+            qsort(array, array_length / 4, sizeof(int), comp);
+            break;
+
+        case FIRST_QUATER_REVERSE_ORDERED:
+            generate_sort_array(array, sorted_array, array_length, 100000);
+            qsort(array, array_length / 4, sizeof(int), comp_rev);
             break;
 
         default:
-            generate_random_array(array, array_length, 100000);
-            _copy_array(sorted_array, array, array_length);
-            qsort(sorted_array, array_length, sizeof(int), comp);
+            generate_sort_array(array, sorted_array, array_length, 100000);
             break;
     }
 }
 
-void generate_random_array(int *array, int array_length, int range) {
+void generate_sort_array(int *array, int *sorted_array, int array_length, int range) {
     for (int i = 0; i < array_length; i++) {
         array[i] = rand() % range;
     }
+
+    _copy_array(sorted_array, array, array_length);
+    qsort(sorted_array, array_length, sizeof(int), comp);
 }
 
-int comp(const void *elem1, const void *elem2) 
-{
+int comp(const void *elem1, const void *elem2) {
     int f = *((int*)elem1);
     int s = *((int*)elem2);
     if (f > s) return  1;
     if (f < s) return -1;
+    return 0;
+}
+
+int comp_rev(const void *elem1, const void *elem2) {
+    int f = *((int*)elem1);
+    int s = *((int*)elem2);
+    if (f > s) return  -1;
+    if (f < s) return 1;
     return 0;
 }
 
