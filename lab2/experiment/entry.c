@@ -77,7 +77,7 @@ void check_result(int *array, int target, int idx, int array_type, FILE *log_fd)
 }
 
 void generate_array(int **array, int array_length, int target, int array_type) {
-    srand(time(NULL));
+    // srand(time(NULL));
 
     switch (array_type) {
         case ELEMENT_IS_FIRST:
