@@ -35,6 +35,7 @@ all: setup with_locks without_locks experiment
 # experiment: $(OBJS_ENTRY) $(OBJS_LINEAR) $(OBJS_PARALLEL)
 experiment: $(OBJS_ENTRY) $(OBJS_PARALLEL) $(OBJS_LINEAR)
 	$(CC) $(CFLAGS) $^ $(LDFLAGS) -o run.out
+	@mkdir -p log
 	./run.out
 	python3 calc_stats.py
 

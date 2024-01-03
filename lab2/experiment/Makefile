@@ -23,6 +23,7 @@ all: experiment
 # experiment: $(OBJS_ENTRY) $(OBJS_LINEAR) $(OBJS_PARALLEL)
 experiment: $(OBJS_ENTRY) $(OBJS_PARALLEL)
 	$(CC) $(CFLAGS) $^ $(LDFLAGS) -o run.out
+	@mkdir -p log
 	./run.out
 	./concat_csv.py
 
